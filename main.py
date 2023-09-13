@@ -3,11 +3,13 @@ import random
 word_list = ['disco', 'sound', 'adieu']
 max_tries = 6
 
+with open('words_list.txt') as f:
+    lines = f.readlines()
 
 def pick_word():
   #need to pick a random word from the list
-  rand_idx = random.randrange(0, len(word_list), 1)
-  rand_word = word_list[rand_idx]
+  rand_idx = random.randrange(0, len(lines), 1)
+  rand_word = lines[rand_idx][0:5]
   word_arr = []
   for char in rand_word:
     word_arr.append(char)
@@ -86,6 +88,7 @@ def play_game():
 
   if tries == 6:
     print("\nOut of tries :(. Better luck next time.")
+    print("The correct word was: ", word)
 
   print('bye bye')
 

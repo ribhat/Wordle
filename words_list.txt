@@ -1,0 +1,6 @@
+disco
+sound
+adieu
+clear
+roate
+donut
