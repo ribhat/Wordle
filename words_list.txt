@@ -4,3 +4,7 @@ adieu
 clear
 roate
 donut
+roast
+bored
+print
+check
