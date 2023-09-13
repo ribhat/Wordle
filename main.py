@@ -1,6 +1,5 @@
 import random
 
-word_list = ['disco', 'sound', 'adieu']
 max_tries = 6
 
 with open('words_list.txt') as f:
