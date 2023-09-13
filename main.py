@@ -91,3 +91,5 @@ def play_game():
 
 
 play_game()
+
+#connected git to atom succesfully
